@@ -87,4 +87,5 @@ public class Sales {
     private void setTax() {
         this.tax = this.total*0.12;
     }
+
 }
