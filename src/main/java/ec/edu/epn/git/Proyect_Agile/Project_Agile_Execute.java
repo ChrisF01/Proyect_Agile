@@ -5,6 +5,7 @@ public class Project_Agile_Execute {
         System.out.println("=====Project Agile Execute=====");
         Client client1 = new Client("1725674020");
         System.out.println("Cliente1 ci: "+client1.getCi());
+        System.out.println("");
 
         Client client2 = new Client("0503408080");
         System.out.println("Cliente2 ci: "+client2.getCi());
@@ -20,6 +21,8 @@ public class Project_Agile_Execute {
         boolean value2 = sales.change_quantity_product(1,13);
         System.out.println(value2);
 
+        System.out.println("Change 1: Refactor extract method");
+        System.out.println("Change 2: Refactor global variable");
         System.out.println("Delete product 1 from the list");
         boolean value3 = sales.delete_product(1);
         System.out.println(value3);
