@@ -106,4 +106,8 @@ public class Client {
         }
         return update_address_client(new_address);
     }
+
+    public String getCi() {
+        return ci;
+    }
 }
